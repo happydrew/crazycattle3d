@@ -39,14 +39,14 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
     <Script type="text/javascript" src="//www.highperformanceformat.com/8a7438b49174eebfc88793b361af2b7b/invoke.js"></Script>
 
     {/* Google tag (gtag.js)  */}
-    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MSSVTCG2PL"></Script>
+    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
     <Script>
       {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-MSSVTCG2PL');
+      gtag('config', 'G-QZMXB2WGM2');
       `}
     </Script>
 
