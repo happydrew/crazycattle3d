@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import type { DocsThemeConfig } from 'nextra-theme-docs'
 import { useConfig, ThemeSwitch } from 'nextra-theme-docs'
 import NextLink from 'next/link'
-import { GitHubIcon, DiscordIcon, StackOverflowIcon, TwitterIcon } from '@components/icons'
+import { GitHubIcon, DiscordIcon, StackOverflowIcon, TwitterIcon, RedditIcon, YouTubeIcon } from '@components/icons'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
 
@@ -52,14 +52,6 @@ function Footer() {
           {logo}
         </NextLink>
         {/* <List
-          title="Document"
-          url="/docs"
-          items={[
-            { title: "Introduction", url: "/docs/introduction" },
-            { title: "Get Started", url: "/docs/get-started" }
-          ]}
-        /> */}
-        {/* <List
           title="Blog"
           url="/blog"
           items={[
@@ -69,34 +61,6 @@ function Footer() {
             { title: "blog4", url: "" }
           ]}
         /> */}
-        {/* <List
-          title="Code"
-          items={[
-            { title: "GitHub", url: "https://github.com/happydrew/randompokemongenerator" },
-            {
-              title: "GraphQL Specification",
-              url: "https://spec.graphql.org",
-            },
-            { title: "Libraries & Tools", url: "/code" },
-            { title: "Services & Vendors", url: "/code/?tags=services" },
-          ]}
-        />
-        <List
-          title="Community"
-          items={[
-            {
-              title: "Resources",
-              url: "/community/resources/official-channels",
-            },
-            { title: "Events & Meetups", url: "/community/events" },
-            {
-              title: "Contribute to GraphQL",
-              url: "/community/contribute/essential-links",
-            },
-            { title: "Landscape", url: "https://landscape.graphql.org" },
-            { title: "Shop", url: "https://store.graphql.org" },
-          ]}
-        />*/}
         <List
           title="About"
           items={[
@@ -124,9 +88,11 @@ function Footer() {
         <div className="flex flex-col gap-4 lg:items-end">
           <ul className="flex gap-5">
             {[
+              { url: "https://x.com/crazy_cattle_3d", icon: TwitterIcon },
               { url: "https://github.com/crazycattle3d-fun/crazycattle3d", icon: GitHubIcon },
+              { url: "https://www.youtube.com/@crazycattle3d-fun", icon: YouTubeIcon },
+              { url: "https://www.reddit.com/user/crazycattle3d/", icon: RedditIcon },
               { url: "", icon: DiscordIcon },
-              { url: "https://x.com/crazycattle3d", icon: TwitterIcon },
               { url: "", icon: StackOverflowIcon },
             ].map(({ url, icon: Icon }) => (
               <li key={url}>
