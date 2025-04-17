@@ -71,9 +71,9 @@ const CrazyCattle3D: React.FC = () => {
                 </p>
                 <div className="my-4 flex justify-center">
                     <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/Q141PhG166o?si=RVty083iLZdLRb2Y"
+                        width="700"
+                        height="400"
+                        src="https://www.youtube.com/embed/Kc-6UAG6Gkg?si=fBqVC6QalzOj-HnR"
                         title="Crazy Cattle 3D Game Trailer - Play Sheep Game Free"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
