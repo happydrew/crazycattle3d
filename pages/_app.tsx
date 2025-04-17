@@ -10,7 +10,8 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
     document.documentElement.classList.add('dark')
   }, []);
 
-  return (<>
+  return (
+  <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
       <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
@@ -51,5 +52,6 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
     </Script>
 
     <Component {...pageProps} />
-  </>)
+  </>
+  )
 }
