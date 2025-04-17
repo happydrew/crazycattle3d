@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const CrazyCattle3D: React.FC = () => {
     return (
@@ -22,6 +23,37 @@ const CrazyCattle3D: React.FC = () => {
                 </div>
             </header>
 
+            {/* Download Section - NEW CONSOLIDATED SECTION */}
+            <section className="mb-8 bg-gradient-to-r from-red-50 to-pink-50 p-6 rounded-lg shadow-md border-2 border-red-200">
+                <h2
+                    className="text-2xl font-bold text-red-600 mb-4 font-cartoon text-center"
+                >
+                    Download Crazy Cattle 3D
+                </h2>
+                <p className="mb-4 text-gray-800 text-center">
+                    For the best experience, download the official version of <strong>Crazy Cattle 3D</strong> for your platform (Windows, Mac, or Linux). The game is completely free and provides a superior experience compared to online versions.
+                </p>
+                <div className="flex justify-center mb-4">
+                    <Link
+                        href="/games/download/crazy-cattle-3d"
+                        className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center"
+                    >
+                        <span className="mr-2">Go to Download Page</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+                        </svg>
+                    </Link>
+                </div>
+                <ul className="text-sm text-gray-700 flex flex-wrap justify-center gap-6">
+                    <li className="flex items-center"><span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Windows</span></li>
+                    <li className="flex items-center"><span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Mac</span></li>
+                    <li className="flex items-center"><span className="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded">Linux</span></li>
+                </ul>
+                <p className="mt-4 text-sm text-gray-600 text-center">
+                    The download is compact (around 110MB) and provides the full experience without ads or malware risks that unofficial <strong>Crazy Cattle 3D unblocked</strong> sites might have.
+                </p>
+            </section>
+
             {/* Game Overview and Key Features */}
             <section className="mb-8">
                 <h2
@@ -35,7 +67,7 @@ const CrazyCattle3D: React.FC = () => {
                     Thrilling Sheep Battle Royale Experience - Play Free Online or Download
                 </h3>
                 <p className="mb-4 text-gray-800">
-                    <strong>Crazy Cattle 3D</strong> (also known as <strong>Crazy Catt</strong> by fans) is a unique battle royale <strong>sheep game</strong> that combines an advanced physics engine with strategic gameplay, creating a hilarious yet thrilling gaming experience. Available as both a <strong>free download</strong> from <strong>itch.io</strong> and as an <strong>online unblocked</strong> version, this game is accessible to everyone. As an explosive sheep, your mission is to survive in a shrinking game area while defeating other woolly opponents to become the ultimate winner.
+                    <strong>Crazy Cattle 3D</strong> (also known as <strong>Crazy Catt</strong> by fans) is a unique battle royale <strong>sheep game</strong> that combines an advanced physics engine with strategic gameplay, creating a hilarious yet thrilling gaming experience. Available as both a <strong>free download</strong> and as an <strong>online unblocked</strong> version, this game is accessible to everyone. As an explosive sheep, your mission is to survive in a shrinking game area while defeating other woolly opponents to become the ultimate winner.
                 </p>
                 <div className="my-4 flex justify-center">
                     <iframe
@@ -52,14 +84,6 @@ const CrazyCattle3D: React.FC = () => {
                 <h3
                     className="text-xl font-semibold text-red-500 mb-2 font-cartoon"
                 >
-                    Where To Download Crazy Cattle 3D
-                </h3>
-                <p className="mb-4 text-gray-800">
-                    For the authentic experience, we recommend downloading <strong>Crazy Cattle 3D</strong> from the official <strong>itch.io</strong> page rather than playing an <strong>unblocked</strong> version. The <strong>download</strong> is compact (around 110MB) and provides the full experience without ads or malware risks that unofficial sites might have. While some players look for <strong>Crazy Cattle 3D Github</strong> repositories, the official source is exclusively through <strong>itch.io</strong>.
-                </p>
-                <h3
-                    className="text-xl font-semibold text-red-500 mb-2 font-cartoon"
-                >
                     Unique Game Elements
                 </h3>
                 <ul className="list-disc list-inside text-gray-800 space-y-2 mb-4">
@@ -70,7 +94,7 @@ const CrazyCattle3D: React.FC = () => {
                         <span className="font-bold">Explosive Collision Mechanics:</span> Perfect your collision timing to send opponents flying off the map or use momentum to execute evasive maneuvers when threatened. This <strong>sheep game</strong>'s collision system makes each confrontation an art of strategy and timing.
                     </li>
                     <li>
-                        <span className="font-bold">Play Online or Download:</span> Choose between playing <strong>Crazy Cattle 3D online</strong> in your browser or downloading the full game for the best experience. While many <strong>unblocked</strong> versions exist, we recommend the official <strong>itch.io download</strong>.
+                        <span className="font-bold">Play Online or Download:</span> Choose between playing <strong>Crazy Cattle 3D online</strong> in your browser or downloading the full game for the best experience.
                     </li>
                     <li>
                         <span className="font-bold">Sheep AI Behavior Patterns:</span> Exclusively developed AI sheep exhibit complex behavior patterns, learning from player strategies and adjusting accordingly, making each match feel fresh. The AI system makes single-player mode challenging too.
@@ -86,7 +110,7 @@ const CrazyCattle3D: React.FC = () => {
                     Three Unique Battleground Environments for Your 3D Sheep Adventures
                 </h2>
                 <p className="mb-4 text-gray-800">
-                    Whether you're playing <strong>Crazy Cattle 3D free online</strong> or the downloaded version from <strong>itch.io</strong>, you'll explore three meticulously crafted environments that fundamentally change your combat and survival strategies:
+                    Whether you're playing <strong>Crazy Cattle 3D free online</strong> or the downloaded version, you'll explore three meticulously crafted environments that fundamentally change your combat and survival strategies:
                 </p>
                 <div className="grid grid-cols-1 gap-4 mb-6">
                     <div className="bg-gray-50 p-4 rounded-lg shadow">
@@ -128,7 +152,7 @@ const CrazyCattle3D: React.FC = () => {
                             <p className="text-lg text-gray-500 italic">Coming soon in Crazy Cattle 3D update</p>
                         </div>
                         <p className="text-gray-800">
-                            The upcoming Lunar Base map will revolutionize gameplay in this <strong>free sheep game</strong>, introducing low gravity environments, space equipment, and interstellar obstacles. This groundbreaking environment will be available both in the <strong>download</strong> version from <strong>itch.io</strong> and potentially in <strong>unblocked online</strong> versions. Get ready, space sheep are coming!
+                            The upcoming Lunar Base map will revolutionize gameplay in this <strong>free sheep game</strong>, introducing low gravity environments, space equipment, and interstellar obstacles. This groundbreaking environment will be available both in the <strong>download</strong> version and potentially in <strong>unblocked online</strong> versions. Get ready, space sheep are coming!
                         </p>
                     </div>
                 </div>
@@ -154,7 +178,7 @@ const CrazyCattle3D: React.FC = () => {
                     How To Play Crazy Cattle 3D - Controls & Gameplay Guide
                 </h2>
                 <p className="mb-4 text-gray-800">
-                    Whether you're playing <strong>Crazy Cattle 3D online unblocked</strong> or the official <strong>itch.io download</strong> version, mastering these controls is essential for victory in this explosive <strong>sheep game</strong>:
+                    Whether you're playing <strong>Crazy Cattle 3D online unblocked</strong> or the official download version, mastering these controls is essential for victory in this explosive <strong>sheep game</strong>:
                 </p>
                 <h3
                     className="text-xl font-semibold text-red-500 mb-2"
@@ -265,48 +289,34 @@ const CrazyCattle3D: React.FC = () => {
                 </div>
             </section>
 
-            {/* Technical Requirements and Compatibility */}
+            {/* Technical Requirements and Compatibility - MODIFIED */}
             <section className="mb-8">
                 <h2
                     className="text-2xl font-bold text-red-600 mb-4 font-cartoon"
                 >
-                    Technical Requirements for Crazy Cattle 3D Download & Online Versions
+                    Technical Requirements & Multi-Platform Support
                 </h2>
-                <h3
-                    className="text-xl font-semibold text-red-500 mb-2 font-cartoon"
-                >
-                    Multi-Platform Support
-                </h3>
+                <p className="mb-4 text-gray-800">
+                    <strong>Crazy Cattle 3D</strong> is designed to run on various platforms. For detailed system requirements and installation instructions, please visit our <Link href="/games/download/crazy-cattle-3d" className="text-red-600 hover:underline">download page</Link>.
+                </p>
                 <ul className="list-disc list-inside text-gray-800 space-y-2 mb-4">
                     <li>
-                        <span className="font-bold">Windows Version:</span> Compatible with Windows 10 and 11, performs best on latest systems for both <strong>itch.io download</strong> and <strong>online unblocked</strong> play
+                        <span className="font-bold">Windows Version:</span> Compatible with Windows 10 and 11, performs best on latest systems
                     </li>
                     <li>
                         <span className="font-bold">Mac Version:</span> Compatible with macOS 11 and later
                     </li>
                     <li>
-                        <span className="font-bold">Linux Version:</span> Compatible with major Linux distributions through the official <strong>download</strong>
+                        <span className="font-bold">Linux Version:</span> Compatible with major Linux distributions
                     </li>
                     <li>
                         <span className="font-bold">Mobile Version:</span> <strong>Crazy Cattle 3D free</strong> mobile version coming soon, supporting iOS and Android platforms
                     </li>
                 </ul>
-                <h3
-                    className="text-xl font-semibold text-red-500 mb-2 font-cartoon"
-                >
-                    System Requirements for Download Version
-                </h3>
-                <ul className="list-disc list-inside text-gray-800 space-y-2">
-                    <li>4GB RAM</li>
-                    <li>2GHz processor</li>
-                    <li>500MB storage space</li>
-                    <li>DirectX 11 compatible graphics card</li>
-                    <li>Stable internet connection (for online multiplayer)</li>
-                </ul>
                 <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500 mt-4">
-                    <h4 className="font-bold text-yellow-600 mb-2">Important Note about Crazy Cattle 3D Online</h4>
+                    <h4 className="font-bold text-yellow-600 mb-2">Important Note about Game Safety</h4>
                     <p className="text-gray-800">
-                        While many <strong>unblocked</strong> versions of this <strong>sheep game</strong> exist online, we strongly recommend downloading from the official <strong>itch.io</strong> page. Many unofficial sites offering <strong>Crazy Cattle 3D online</strong> contain malware or inappropriate content. There is no official <strong>Github</strong> repository for this game - the only legitimate source is the developer's <strong>itch.io</strong> page.
+                        While many <strong>unblocked</strong> versions of this <strong>sheep game</strong> exist online, we strongly recommend downloading from our <Link href="/games/download/crazy-cattle-3d" className="text-yellow-600 hover:underline">official download page</Link>. Many unofficial sites offering <strong>Crazy Cattle 3D online</strong> contain malware or inappropriate content. There is no official <strong>Github</strong> repository for this game - the only legitimate source is through our official website.
                     </p>
                 </div>
             </section>
@@ -331,7 +341,7 @@ const CrazyCattle3D: React.FC = () => {
                         <span className="font-bold">Mobile Version Demand:</span> Strong community requests for Android and iOS versions of this popular <strong>sheep game</strong>
                     </li>
                     <li>
-                        <span className="font-bold">Online vs Download:</span> Debates about <strong>unblocked online</strong> versions versus the official <strong>itch.io download</strong>
+                        <span className="font-bold">Online vs Download:</span> Debates about <strong>unblocked online</strong> versions versus the official download
                     </li>
                     <li>
                         <span className="font-bold">New Map Speculation:</span> Source code analysis suggests possible chicken-themed new game content
@@ -350,7 +360,7 @@ const CrazyCattle3D: React.FC = () => {
                         <span className="font-bold">AI Loop Trick:</span> "After a while, AI sheep will start to circle infinitely. You can exploit this by waiting until sheep aren't dying by themselves anymore and just nudge them while they're circling. When you hit them, they'll typically run out of the zone and die, or target another sheep, causing them to also die." — Player Peakgame
                     </p>
                     <p className="text-gray-800">
-                        <span className="font-bold">Warning:</span> Multiple users report that unofficial websites may contain malicious content. It's recommended to <strong>download Crazy Cattle 3D</strong> only from the official <strong>itch.io</strong> page rather than playing <strong>unblocked online</strong> versions.
+                        <span className="font-bold">Warning:</span> Multiple users report that unofficial websites may contain malicious content. It's recommended to download <strong>Crazy Cattle 3D</strong> only from our <Link href="/games/download/crazy-cattle-3d" className="text-blue-600 hover:underline">official download page</Link>.
                     </p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-500 mt-4">
@@ -362,14 +372,14 @@ const CrazyCattle3D: React.FC = () => {
             </section>
 
             {/* Conclusion */}
-            <section>
+            <section className="mb-8">
                 <h2
                     className="text-2xl font-bold text-red-600 mb-4 font-cartoon"
                 >
                     Conclusion: Why Crazy Cattle 3D Is the Ultimate Free Sheep Game
                 </h2>
                 <p className="text-gray-800">
-                    <strong>Crazy Cattle 3D</strong> offers an unforgettable battle royale experience with its unique physics engine, explosive gameplay, and diverse environments. Whether you choose to <strong>download</strong> from <strong>itch.io</strong> or play an <strong>online unblocked</strong> version, this <strong>free sheep game</strong> provides endless entertainment. Master <strong>how to play Crazy Cattle 3D</strong>, learn advanced techniques, explore different maps, and see if you can be the last sheep standing!
+                    <strong>Crazy Cattle 3D</strong> offers an unforgettable battle royale experience with its unique physics engine, explosive gameplay, and diverse environments. Whether you choose to <Link href="/games/download/crazy-cattle-3d" className="text-red-600 hover:underline">download</Link> or play an <strong>online unblocked</strong> version, this <strong>free sheep game</strong> provides endless entertainment. Master <strong>how to play Crazy Cattle 3D</strong>, learn advanced techniques, explore different maps, and see if you can be the last sheep standing!
                 </p>
                 <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500 mt-4">
                     <h4 className="font-bold text-yellow-600 mb-2">Crazy Cattle 3D Future Outlook</h4>
@@ -489,18 +499,24 @@ const CrazyCattle3D: React.FC = () => {
                 </div>
             </section>
 
-            {/* Call-to-Action for Download */}
+            {/* Call-to-Action for Download - MODIFIED */}
             <section className="mt-8 bg-red-50 p-6 rounded-lg border-2 border-red-200">
-                <h2 className="text-2xl font-bold text-red-600 mb-4 font-cartoon">
+                <h2 className="text-2xl font-bold text-red-600 mb-4 font-cartoon text-center">
                     Download Crazy Cattle 3D Free Today!
                 </h2>
-                <p className="text-gray-800 mb-6">
-                    Experience the explosive sheep battle royale that everyone is talking about! Get the official version from itch.io for the best and safest gameplay experience.
+                <p className="text-gray-800 mb-6 text-center">
+                    Experience the explosive sheep battle royale that everyone is talking about! Get the official version for the best and safest gameplay experience.
                 </p>
                 <div className="flex justify-center">
-                    <a href="#" className="bg-red-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition text-lg">
-                        Download Crazy Cattle 3D Free
-                    </a>
+                    <Link
+                        href="/games/download/crazy-cattle-3d"
+                        className="bg-red-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-red-700 transition text-lg flex items-center"
+                    >
+                        <span className="mr-2">Download Crazy Cattle 3D Free</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+                        </svg>
+                    </Link>
                 </div>
             </section>
         </article>

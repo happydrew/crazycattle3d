@@ -11,23 +11,23 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
   }, []);
 
   return (
-  <>
-    <Head>
-      <link rel="icon" href="/favicon.ico" />
-      <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
 
-      {/* Google Adsense */}
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4907197973761221" crossOrigin="anonymous"></script>
-      <meta name="google-adsense-account" content="ca-pub-4907197973761221" />
+        {/* Google Adsense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4907197973761221" crossOrigin="anonymous"></script>
+        <meta name="google-adsense-account" content="ca-pub-4907197973761221" />
 
-      {/* clickadilla */}
-      <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="314085"></script>
+        {/* clickadilla */}
+        <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="314085"></script>
 
-    </Head>
+      </Head>
 
-    {/* adsterra banner */}
-    <Script type="text/javascript">
-      {`
+      {/* adsterra banner */}
+      <Script type="text/javascript">
+        {`
       atOptions = {
         'key' : '8a7438b49174eebfc88793b361af2b7b',
         'format' : 'iframe',
@@ -36,22 +36,22 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
         'params' : {}
 	    };
     `}
-    </Script>
-    <Script type="text/javascript" src="//www.highperformanceformat.com/8a7438b49174eebfc88793b361af2b7b/invoke.js"></Script>
+      </Script>
+      <Script type="text/javascript" src="//www.highperformanceformat.com/8a7438b49174eebfc88793b361af2b7b/invoke.js"></Script>
 
-    {/* Google tag (gtag.js)  */}
-    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
-    <Script>
-      {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      {/* Google tag (gtag.js)  */}
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
+      <Script>
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-QZMXB2WGM2');
+        gtag('config', 'G-QZMXB2WGM2');
       `}
-    </Script>
+      </Script>
 
-    <Component {...pageProps} />
-  </>
+      <Component {...pageProps} />
+    </>
   )
 }

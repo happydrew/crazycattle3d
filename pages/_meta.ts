@@ -80,7 +80,30 @@ export default {
       layout: 'raw'
     }
   },
-
+  "doodle-baseball": {
+    type: 'page',
+    title: 'Doodle Baseball',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
+  "crazy-flips-3d": {
+    type: 'page',
+    title: 'Crazy Flips 3D',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
+  "crazy-cattle-3d-download": {
+    type: 'page',
+    title: 'Crazy Cattle 3D Download',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
   // docs: {
   //   type: 'page',
   //   title: 'Documentation'
