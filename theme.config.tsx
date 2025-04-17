@@ -210,9 +210,9 @@ const config: DocsThemeConfig = {
         {canonical && <link rel="canonical" href={canonical} />}
 
         {/* 设置google结构化数据 */}
-        {frontMatter.type === 'game' && (
+        {frontMatter.type === 'game' &&
           <script type="application/ld+json">
-          {`
+            {`
             {
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
@@ -259,7 +259,7 @@ const config: DocsThemeConfig = {
             }
           `}
           </script>
-        )}
+        }
 
         <meta name="msapplication-TileColor" content="#fff" />
         <meta httpEquiv="Content-Language" content="en" />
