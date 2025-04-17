@@ -1,113 +1,113 @@
 # Crazy Cattle 3D
 
 <p align="center">
-  <img src="public/assets/images/games/crazy-cattle-3d.webp" alt="Crazy Cattle 3D Logo" width="200"/>
+  <img src="https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d.webp" alt="Crazy Cattle 3D Logo" width="400"/>
 </p>
 
-## 📖 Game Overview
+## The Ultimate Free Explosive Sheep Game - Play Online or Download
 
-Crazy Cattle 3D is an explosive sheep battle royale game where players control explosive sheep across three distinct global environments. The game features a unique physics engine creating a hilarious yet thrilling experience as you try to be the last sheep standing!
+Crazy Cattle 3D is an adrenaline-pumping battle royale sheep game where you control explosive sheep 3D characters in three distinct global environments for a chaotic survival challenge. Master the physics-based movement system, outsmart your opponents, and be the last sheep standing! Visit [crazycattle3d.fun](https://crazycattle3d.fun) to play online now.
 
-## 🎮 Key Features
+## Game Overview
 
-- **Revolutionary Physics System**: Groundbreaking physics engine specifically designed for authentic sheep movement
-- **Three Unique Environments**: Ireland, Iceland, and New Zealand maps, each with distinct strategic advantages
-- **Explosive Gameplay**: Perfect your collision timing to send opponents flying off the map
-- **Skill-Based Advancement**: Success comes from genuine player improvement, not unlocks or upgrades
-- **Multi-Platform Support**: Play on desktop (Windows, Mac, Linux) and mobile devices (coming soon)
+Crazy Cattle 3D (also known as Crazy Catt by fans) is a unique battle royale sheep game that combines an advanced physics engine with strategic gameplay, creating a hilarious yet thrilling gaming experience. Available as both a free download from [itch.io](https://www.itch.io/crazycattle3d) and as an online unblocked version at [crazycattle3d.fun/play](https://crazycattle3d.fun/play), this game is accessible to everyone. As an explosive sheep, your mission is to survive in a shrinking game area while defeating other woolly opponents to become the ultimate winner.
 
-## 💻 Technology Stack
+## Where To Download
 
-- **Frontend Framework**: React.js
-- **Development Language**: TypeScript
-- **Styling**: TailwindCSS
-- **Routing**: Next.js
-- **State Management**: React Context API
-- **Responsive Design**: Optimized for both desktop and mobile devices
+For the authentic experience, we recommend downloading Crazy Cattle 3D from the official [itch.io page](https://www.itch.io/crazycattle3d) rather than playing an unblocked version. The download is compact (around 110MB) and provides the full experience without ads or malware risks that unofficial sites might have.
 
-## 🚀 Installation Guide
+## Unique Game Elements
 
-### Prerequisites
+- **Revolutionary Physics System:** Crazy Cattle 3D features a groundbreaking physics engine specifically designed for authentic sheep 3D movement. Every animal responds realistically to environmental factors, creating unpredictable and hilarious moments.
+- **Explosive Collision Mechanics:** Perfect your collision timing to send opponents flying off the map or use momentum to execute evasive maneuvers when threatened. This sheep game's collision system makes each confrontation an art of strategy and timing.
+- **Play Online or Download:** Choose between playing [Crazy Cattle 3D online](https://crazycattle3d.fun/play) in your browser or downloading the full game for the best experience.
+- **Sheep AI Behavior Patterns:** Exclusively developed AI sheep exhibit complex behavior patterns, learning from player strategies and adjusting accordingly, making each match feel fresh.
 
-- Node.js (v14.0.0 or above recommended)
-- npm or yarn
+## Three Unique Battleground Environments
 
-### Installation Steps
+Whether you're playing Crazy Cattle 3D free online or the downloaded version from itch.io, you'll explore three meticulously crafted environments that fundamentally change your combat and survival strategies:
 
-1. Clone the repository
+### Ireland
+Ireland's rolling hills provide natural ramps for gaining momentum and executing spectacular aerial attacks. This lush landscape offers the perfect environment for beginners to learn how to play Crazy Cattle 3D. The unique seasonal change system makes this map present drastically different tactical values during different periods.
 
-```bash
-git clone https://github.com/yourusername/crazycattle3d.git
-cd crazycattle3d
-```
+### Iceland
+Iceland's volcanic landscape introduces hazardous zones that can trap unwary sheep or be used strategically to eliminate opponents. This map is a challenging environment with dramatic elevation changes and unpredictable terrain effects. Random eruption events add an extra layer of strategy to this 3D sheep game.
 
-2. Install dependencies
+### New Zealand
+New Zealand's mountainous terrain offers vertical gameplay with high-risk, high-reward vantage points. Experienced Crazy Catt players will find optimal strategic routes in this complex environment. Secret cave systems offer additional tactical options for those who've mastered how to play Crazy Cattle 3D.
 
-```bash
-npm install
-# or using yarn
-yarn install
-```
+### Lunar Base (Coming Soon)
+The upcoming Lunar Base map will revolutionize gameplay, introducing low gravity environments, space equipment, and interstellar obstacles. Check [crazycattle3d.fun/news](https://crazycattle3d.fun/news) for updates!
 
-3. Start the development server
+## Game Controls
 
-```bash
-npm run dev
-# or using yarn
-yarn dev
-```
+### Desktop Controls (Download & Online Versions)
+- **Movement:** Arrow keys or WASD
+- **Charge:** Hold left click or spacebar
+- **Jump:** Press E key
+- **Special Moves:** Press Q for special attacks
 
-4. Visit http://localhost:3000 in your browser to play the game
+### Mobile Controls (Coming Soon)
+- **Movement:** Touch and drag to move
+- **Charge:** Tap and hold the charge button
+- **Jump:** Tap the jump button
+- **Special Moves:** Tap the special move button
 
-## 📝 Game Controls
+## Pro Tip
+The secret to becoming a Crazy Cattle 3D master is mastering momentum control. By establishing a momentum chain through consecutive collisions, then maintaining charge until the optimal release moment, you can achieve maximum explosive power.
 
-- **Movement**: Arrow keys or WASD
-- **Charge**: Hold left click or spacebar
-- **Jump**: Press E key
-- **Special Moves**: Press Q for special attacks
-- **Mobile Controls**: Touch controls available on mobile devices
+## Advanced Strategy Tips
 
-## 📂 Project Structure
+### Sheep Movement Techniques
+- **Master the art of sheep locomotion:** Building momentum downhill to gain speed advantage is key to victory
+- **Perfect collision timing:** Use precise collision timing to escape danger or catch opponents off guard
+- **Develop spatial awareness:** Always know where other sheep are
+- **Angle optimization:** 45-degree impacts typically provide the best knockback effect, a signature technique of expert players
 
-```
-crazycattle3d/
-├── components/           # React components
-│   ├── common/           # Common components
-│   ├── games/            # Game-related components
-│   └── layout/           # Layout components
-├── pages/                # Page components
-├── public/               # Static assets
-│   └── assets/
-│       └── images/       # Image resources
-├── styles/               # Style files
-├── types/                # TypeScript type definitions
-├── utils/                # Utility functions
-├── .gitignore            # Git ignore file
-├── package.json          # Project dependencies
-├── tsconfig.json         # TypeScript configuration
-└── README.md             # Project documentation
-```
+### Tactical Positioning
+- **Create strategic collisions:** Plan your attacks for maximum impact
+- **Learn to read the arena:** Identify safe zones and danger areas
+- **Leverage environmental advantages:** Adjust your tactics based on different map features
+- **Sheep psychology:** Predicting opponent behavior is central to advanced tactics
 
-## 🔧 Future Development
+Need more advanced tips? Visit our [strategy guide](https://crazycattle3d.fun/strategy).
 
-- [ ] Multiplayer online battles
-- [ ] New game environments
-- [ ] Customizable sheep characters
-- [ ] Mobile version release
-- [ ] Achievement system
-- [ ] Leaderboards
+## Technical Requirements
 
-## 📄 License
+### Multi-Platform Support
+- **Windows Version:** Compatible with Windows 10 and 11
+- **Mac Version:** Compatible with macOS 11 and later
+- **Linux Version:** Compatible with major Linux distributions
+- **Mobile Version:** Coming soon, supporting iOS and Android platforms
 
-This project is licensed under the [MIT License](LICENSE).
+### System Requirements for Download Version
+- 4GB RAM
+- 2GHz processor
+- 500MB storage space
+- DirectX 11 compatible graphics card
+- Stable internet connection (for online multiplayer)
 
-## 📞 Contact Information
+Check your system compatibility at [crazycattle3d.fun/requirements](https://crazycattle3d.fun/requirements).
 
-- Email: contact@crazycattle3d.com
-- Official Website: www.crazycattle3d.com
-- Social Media: [Twitter](https://twitter.com/crazycattle3d) | [Discord](https://discord.gg/crazycattle3d)
+## Community & Support
+
+Join our community of players at [crazycattle3d.fun/community](https://crazycattle3d.fun/community) to share strategies, report bugs, and connect with other players. For technical support, please visit [crazycattle3d.fun/support](https://crazycattle3d.fun/support).
+
+## Future Updates
+According to the development roadmap, Crazy Cattle 3D will welcome more exciting updates, including new maps, customizable sheep 3D characters, seasonal events, and arena mode. The development team is committed to making this free sheep game an evergreen title in indie gaming, continuously optimizing the experience based on community feedback.
+
+## Download Crazy Cattle 3D Free Today!
+Experience the explosive sheep battle royale that everyone is talking about! Get the official version from [itch.io](https://www.itch.io/crazycattle3d) or play online at [crazycattle3d.fun](https://crazycattle3d.fun) for the best and safest gameplay experience.
 
 ---
 
-Thank you for your interest in Crazy Cattle 3D!
+<p align="center">
+  <a href="https://crazycattle3d.fun">Website</a> |
+  <a href="https://crazycattle3d.fun/blog">Blog</a> |
+  <a href="https://twitter.com/crazycattle3d">Twitter</a> |
+  <a href="https://discord.gg/crazycattle3d">Discord</a>
+</p>
 
+<p align="center">
+  © 2023 Crazy Cattle 3D. All rights reserved.
+</p>

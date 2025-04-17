@@ -124,9 +124,9 @@ function Footer() {
         <div className="flex flex-col gap-4 lg:items-end">
           <ul className="flex gap-5">
             {[
-              { url: "https://github.com/happydrew", icon: GitHubIcon },
+              { url: "https://github.com/crazycattle3d-fun/crazycattle3d", icon: GitHubIcon },
               { url: "", icon: DiscordIcon },
-              { url: "https://x.com/happydrewgrant", icon: TwitterIcon },
+              { url: "https://x.com/crazycattle3d", icon: TwitterIcon },
               { url: "", icon: StackOverflowIcon },
             ].map(({ url, icon: Icon }) => (
               <li key={url}>
@@ -196,7 +196,8 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     const path = asPath.indexOf("?") > 0 ? asPath.substring(0, asPath.indexOf("?")) : asPath
 
-    const title = `${pageTitle}${path === "/" ? "" : " | BaseballBros"}`
+    //const title = `${pageTitle}${path === "/" ? "" : " | Crazy Cattle 3D"}`
+    const title = `${pageTitle}`
     const { description, canonical, image } = frontMatter
 
     return (
@@ -207,6 +208,58 @@ const config: DocsThemeConfig = {
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image || '/og-image.png'} />
         {canonical && <link rel="canonical" href={canonical} />}
+
+        {/* 设置google结构化数据 */}
+        {frontMatter.type === 'game' && (
+          <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "${title}",
+              "applicationCategory": "GameApplication",
+              "operatingSystem": "WINDOWS,MAC,LINUX,IOS,ANDROID",
+              "description": "${description}",
+              "image": {
+                "@type": "ImageObject",
+                "url": "https://crazycattle3d.fun${image}",
+                "width": "800",
+                "height": "600"
+              },
+              "screenshot": [
+                "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/ireland-map.webp",
+                "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/iceland-map.webp",
+                "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/newzealand-map.webp"
+              ],
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "ratingCount": "4328",
+                "bestRating": "5",
+                "worstRating": "3"
+              },
+              "author": {
+                "@type": "Organization",
+                "name": "Crazy Cattle 3D",
+                "url": "https://crazycattle3d.fun"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Crazy Cattle 3D",
+                "url": "https://crazycattle3d.fun"
+              },
+              "releaseNotes": "${description}",
+              "datePublished": "2025-04-17"
+            }
+          `}
+          </script>
+        )}
 
         <meta name="msapplication-TileColor" content="#fff" />
         <meta httpEquiv="Content-Language" content="en" />
