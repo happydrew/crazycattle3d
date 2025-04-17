@@ -96,6 +96,14 @@ export default {
       layout: 'raw'
     }
   },
+  "football-bros": {
+    type: 'page',
+    title: 'Football Bros',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
   "crazy-cattle-3d-download": {
     type: 'page',
     title: 'Crazy Cattle 3D Download',
