@@ -31,7 +31,7 @@ const GamePage = ({
 
                 {/* left ads */}
                 <div id="left-ads" className="scale-[80%] gap-4 lg:gap-6 w-full lg:w-1/6 flex flex-col justify-center items-center border border-zinc-700 relative">
-                    <script async="async" data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
+                    <script async data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
                     <div id="container-31a50d07a2355afffb47dc172427319e"></div>
                 </div>
 
@@ -58,7 +58,7 @@ const GamePage = ({
 
                 {/* right ads */}
                 <div id="right-ads" className="scale-[80%] gap-4 lg:gap-6 w-full lg:w-1/6 flex flex-col justify-center items-center border border-zinc-700 relative">
-                    <script async="async" data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
+                    <script async data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
                     <div id="container-31a50d07a2355afffb47dc172427319e"></div>
                 </div>
             </div>
