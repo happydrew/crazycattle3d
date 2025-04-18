@@ -28,16 +28,17 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       {/* adsterra banner */}
       <Script type="text/javascript">
         {`
-      atOptions = {
-        'key' : '8a7438b49174eebfc88793b361af2b7b',
-        'format' : 'iframe',
-        'height' : 600,
-        'width' : 160,
-        'params' : {}
-	    };
-    `}
+        atOptions = {
+          'key' : '5d8681ea81dce92641d324ff2850aa08',
+          'format' : 'iframe',
+          'height' : 250,
+          'width' : 300,
+          'params' : {}
+        };
+      `}
       </Script>
-      <Script type="text/javascript" src="//www.highperformanceformat.com/8a7438b49174eebfc88793b361af2b7b/invoke.js"></Script>
+      <Script type="text/javascript" src="//www.highperformanceformat.com/5d8681ea81dce92641d324ff2850aa08/invoke.js"></Script>
+
 
       {/* Google tag (gtag.js)  */}
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
@@ -52,6 +53,8 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       </Script>
 
       <Component {...pageProps} />
+
+      <Script type='text/javascript' src='//pl26416596.profitableratecpm.com/0d/2e/23/0d2e2375eb22c7adee4bcab7b29bb9c7.js'></Script>
     </>
   )
 }
