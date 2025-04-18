@@ -195,10 +195,9 @@ const config: DocsThemeConfig = {
         {canonical && <link rel="canonical" href={canonical} />}
 
         {/* 设置google结构化数据 */}
-        {frontMatter.type === 'game' && (
-          <>
-            <script type="application/ld+json">
-              {`
+        {frontMatter.type === 'game' &&
+          <script type="application/ld+json">
+            {`
                 {
                   "@context": "https://schema.org",
                   "@type": "SoftwareApplication",
@@ -262,10 +261,11 @@ const config: DocsThemeConfig = {
                   "datePublished": "2025-04-17"
                 }
             `}
-            </script>
+          </script>
+        }
 
-            <script type="application/ld+json">
-              {`
+        <script type="application/ld+json">
+          {`
               {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
@@ -300,10 +300,10 @@ const config: DocsThemeConfig = {
               "sameAs": []
               } 
             `}
-            </script>
+        </script>
 
-            <script type="application/ld+json">
-              {`
+        <script type="application/ld+json">
+          {`
               {
                 "@context": "https://schema.org",
                 "@type": "BreadcrumbList",
@@ -323,10 +323,10 @@ const config: DocsThemeConfig = {
                 ]
               }
             `}
-            </script>
+        </script>
 
-            <script type="application/ld+json">
-              {`
+        <script type="application/ld+json">
+          {`
               {
               "@context": "https://schema.org",
               "@type": "WebSite",
@@ -340,13 +340,9 @@ const config: DocsThemeConfig = {
               }
               } 
             `}
-            </script>
-          </>
-        )
+        </script>
 
-        }
-
-        <meta name="msapplication-TileColor" content="#fff" />
+        < meta name="msapplication-TileColor" content="#fff" />
         <meta httpEquiv="Content-Language" content="en" />
         {/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site:domain" content="nextra.site" />
