@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       </Head>
 
       {/* adsterra banner */}
-      <Script type="text/javascript">
+      {/* <Script type="text/javascript">
         {`
         atOptions = {
           'key' : '5d8681ea81dce92641d324ff2850aa08',
@@ -37,11 +37,11 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
         };
       `}
       </Script>
-      <Script type="text/javascript" src="//www.highperformanceformat.com/5d8681ea81dce92641d324ff2850aa08/invoke.js"></Script>
+      <Script type="text/javascript" src="//www.highperformanceformat.com/5d8681ea81dce92641d324ff2850aa08/invoke.js"></Script> */}
 
 
       {/* Google tag (gtag.js)  */}
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
+      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
       <Script>
         {`
         window.dataLayer = window.dataLayer || [];
@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
 
         gtag('config', 'G-QZMXB2WGM2');
       `}
-      </Script>
+      </Script> */}
 
       <Component {...pageProps} />
 

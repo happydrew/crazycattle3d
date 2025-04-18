@@ -30,10 +30,10 @@ const GamePage = ({
             <div className="w-full flex flex-col lg:flex-row justify-center items-center">
 
                 {/* left ads */}
-                <div id="left-ads" className="scale-[80%] gap-4 lg:gap-6 w-full lg:w-1/6 flex flex-col justify-center items-center border border-zinc-700 relative">
+                {/* <div id="left-ads" className="scale-[90%] gap-4 lg:gap-6 w-full lg:w-1/6 flex flex-col justify-center items-center border border-zinc-700 relative">
                     <script async data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
                     <div id="container-31a50d07a2355afffb47dc172427319e"></div>
-                </div>
+                </div> */}
 
                 <div id="game-region" className="w-full lg:w-3/4 flex flex-col lg:flex-row justify-center items-center gap-2 mb-8">
                     <div id="left-side" className="order-2 lg:order-1 lg:h-full lg:flex-col flex flex-row flex-wrap justify-between items-center gap-4">
@@ -57,10 +57,11 @@ const GamePage = ({
                 </div>
 
                 {/* right ads */}
-                <div id="right-ads" className="scale-[80%] gap-4 lg:gap-6 w-full lg:w-1/6 flex flex-col justify-center items-center border border-zinc-700 relative">
+                {/* <div id="right-ads" className="scale-[90%] gap-4 lg:gap-6 w-full lg:w-1/6 flex flex-col justify-center items-center border border-zinc-700 relative">
                     <script async data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
                     <div id="container-31a50d07a2355afffb47dc172427319e"></div>
-                </div>
+                </div> */}
+
             </div>
 
 
