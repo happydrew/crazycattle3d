@@ -21,9 +21,22 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
         <meta name="google-adsense-account" content="ca-pub-4907197973761221" />
 
         {/* clickadilla */}
-        <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="314085"></script>
+        {/* <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="314085"></script> */}
 
       </Head>
+
+      {/* monetag */}
+      <Script>
+        {`
+        (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',9230773,document.createElement('script'))
+        `}
+      </Script>
+
+      <Script>
+        {`
+        (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('gizokraijaw.net',9230778,document.createElement('script'))
+        `}
+      </Script>
 
       {/* adsterra banner */}
       {/* <Script type="text/javascript">
@@ -41,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
 
 
       {/* Google tag (gtag.js)  */}
-      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
       <Script>
         {`
         window.dataLayer = window.dataLayer || [];
@@ -50,7 +63,7 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
 
         gtag('config', 'G-QZMXB2WGM2');
       `}
-      </Script> */}
+      </Script>
 
       <Component {...pageProps} />
 
