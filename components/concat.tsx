@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CircularProgress from "@mui/material/CircularProgress";
-import { CONCAT_URL } from 'gamehome.config';
+import { CONCAT_URL } from '@config';
 import { validEmailFormat } from "utils";
 
 export const Concat = () => {

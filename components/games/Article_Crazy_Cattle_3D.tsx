@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const CrazyCattle3D: React.FC = () => {
     return (
-        <article className="max-w-4xl mx-auto p-6 rounded-lg leading-8">
+        <article className="w-full lg:max-w-4xl mx-auto p-6 rounded-lg leading-8">
             {/* Title and Introduction */}
             <header className="mb-8">
                 <h1

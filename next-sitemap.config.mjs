@@ -1,8 +1,10 @@
 /* eslint-env node */
 
+import { siteUrl } from "./config";
+
 /** @type {import('next-sitemap').IConfig} */
 export default {
-  siteUrl: "https://crazycattle3d.fun",
+  siteUrl: siteUrl,
   generateIndexSitemap: false,
   generateRobotsTxt: false,
   // output: "export", // Set static output here

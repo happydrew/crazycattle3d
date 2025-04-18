@@ -5,6 +5,7 @@ import NextLink from 'next/link'
 import { GitHubIcon, DiscordIcon, StackOverflowIcon, TwitterIcon, RedditIcon, YouTubeIcon } from '@components/icons'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
+import { siteUrl } from './config'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -164,67 +165,185 @@ const config: DocsThemeConfig = {
 
     //const title = `${pageTitle}${path === "/" ? "" : " | Crazy Cattle 3D"}`
     const title = `${pageTitle}`
-    const { description, canonical, image } = frontMatter
+    const { description, canonical, image, keywords } = frontMatter
+
+    const game_name = title.split('|')[0].trim();
 
     return (
       <>
         <title>{title}</title>
-        <meta property="og:title" content={title} />
         <meta name="description" content={description} />
+        {keywords && <meta name="keywords" content={keywords} />}
+
+        {/* 设置og标签 */}
+        <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta property="og:url" content={`${siteUrl}${path}`} />
         <meta property="og:image" content={image || '/og-image.png'} />
+        <meta property="og:site_name" content="Crazy Cattle 3D" />
+        <meta property="og:type" content="website" />
+
+        {/* 设置twitter标签 */}
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:url" content={`${siteUrl}${path}`} />
+        <meta name="twitter:image" content={image || '/og-image.png'} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@crazy_cattle_3d" />
+
+
         {canonical && <link rel="canonical" href={canonical} />}
 
         {/* 设置google结构化数据 */}
-        {frontMatter.type === 'game' &&
-          <script type="application/ld+json">
-            {`
-            {
+        {frontMatter.type === 'game' && (
+          <>
+            <script type="application/ld+json">
+              {`
+                {
+                  "@context": "https://schema.org",
+                  "@type": "SoftwareApplication",
+                  "name": "${game_name}",
+                  "applicationCategory": "GameApplication",
+                  "operatingSystem": "WINDOWS,MAC,LINUX,IOS,ANDROID",
+                  "description": "${description}",
+                  "image": {
+                    "@type": "ImageObject",
+                    "url": "https://crazycattle3d.fun${image}",
+                    "width": "800",
+                    "height": "600"
+                  },
+                  "screenshot": [
+                    {
+                      "@type": "ImageObject",
+                      "url": "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/ireland-map.webp",
+                      "width": "800",
+                      "height": "600",
+                      "caption": "Ireland Map"
+                    },
+                    {
+                      "@type": "ImageObject",
+                      "url": "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/iceland-map.webp",
+                      "width": "800",
+                      "height": "600",
+                      "caption": "Iceland Map"
+                    },
+                    {
+                      "@type": "ImageObject",
+                      "url": "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/newzealand-map.webp",
+                      "width": "800",
+                      "height": "600",
+                      "caption": "New Zealand Map"
+                    }
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock"
+                  },
+                  "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "4328",
+                    "bestRating": "5",
+                    "worstRating": "3"
+                  },
+                  "author": {
+                    "@type": "Organization",
+                    "name": "Crazy Cattle 3D",
+                    "url": "https://crazycattle3d.fun"
+                  },
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "Crazy Cattle 3D",
+                    "url": "https://crazycattle3d.fun"
+                  },
+                  "releaseNotes": "${description}",
+                  "datePublished": "2025-04-17"
+                }
+            `}
+            </script>
+
+            <script type="application/ld+json">
+              {`
+              {
               "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              "name": "${title}",
-              "applicationCategory": "GameApplication",
-              "operatingSystem": "WINDOWS,MAC,LINUX,IOS,ANDROID",
-              "description": "${description}",
-              "image": {
-                "@type": "ImageObject",
-                "url": "https://crazycattle3d.fun${image}",
-                "width": "800",
-                "height": "600"
+              "@type": "LocalBusiness",
+              "name": "Crazy Cattle 3D",
+              "image": "https://crazycattle3d.fun/favicon.png",
+              "@id": "",
+              "url": "https://crazycattle3d.fun",
+              "telephone": "(907) 457-2631",
+              "priceRange": "$",
+              "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "919 Stimple Ct",
+              "addressLocality": "Fairbanks",
+              "addressRegion": "AK",
+              "postalCode": "99712",
+              "addressCountry": "US"
               },
-              "screenshot": [
-                "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/ireland-map.webp",
-                "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/iceland-map.webp",
-                "https://crazycattle3d.fun/assets/images/games/crazy-cattle-3d/newzealand-map.webp"
+              "OpeningHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
               ],
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "availability": "https://schema.org/InStock"
+              "opens": "00:00",
+              "closes": "23:59"
               },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "ratingCount": "4328",
-                "bestRating": "5",
-                "worstRating": "3"
-              },
-              "author": {
-                "@type": "Organization",
-                "name": "Crazy Cattle 3D",
-                "url": "https://crazycattle3d.fun"
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Crazy Cattle 3D",
-                "url": "https://crazycattle3d.fun"
-              },
-              "releaseNotes": "${description}",
-              "datePublished": "2025-04-17"
-            }
-          `}
-          </script>
+              "sameAs": []
+              } 
+            `}
+            </script>
+
+            <script type="application/ld+json">
+              {`
+              {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Crazy Cattle 3D",
+                    "item": "https://crazycattle3d.fun/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Download",
+                    "item": "https://crazycattle3d.fun/crazy-cattle-3d-download/"
+                  }
+                ]
+              }
+            `}
+            </script>
+
+            <script type="application/ld+json">
+              {`
+              {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Crazy Cattle 3D",
+              "alternateName": "Crazy Cattle 3D, Crazy Cattle 3D Online, Crazy Cattle 3D Game, Crazy Cattle 3D Unblocked, Crazy Cattle 3D Free",
+              "url": "https://crazycattle3d.fun",
+              "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://crazycattle3d.fun",
+              "query-input": "required name=search_term_string"
+              }
+              } 
+            `}
+            </script>
+          </>
+        )
+
         }
 
         <meta name="msapplication-TileColor" content="#fff" />
