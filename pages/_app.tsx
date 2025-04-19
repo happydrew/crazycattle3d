@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       </Head>
 
       {/* monetag */}
-      <Script>
+      {/* <Script>
         {`
         (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',9230773,document.createElement('script'))
         `}
@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
         {`
         (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('gizokraijaw.net',9230778,document.createElement('script'))
         `}
-      </Script>
+      </Script> */}
 
       {/* adsterra banner */}
       {/* <Script type="text/javascript">
