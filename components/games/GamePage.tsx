@@ -26,6 +26,10 @@ const GamePage = ({
             {/* Game name */}
             <h1 className='text-center mb-2'>{main_game.name}</h1>
 
+            {/* adsterra */}
+            <script async data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
+            <div id="container-31a50d07a2355afffb47dc172427319e"></div>
+
             {/* Game area */}
             <div className="w-full flex flex-col lg:flex-row justify-center items-center">
 
@@ -35,12 +39,15 @@ const GamePage = ({
                     <div id="container-31a50d07a2355afffb47dc172427319e"></div>
                 </div> */}
 
+                <div id="container-31a50d07a2355afffb47dc172427319e"></div>
+
                 <div id="game-region" className="w-full lg:w-3/4 flex flex-col lg:flex-row justify-center items-center gap-2 mb-8">
                     <div id="left-side" className="order-2 lg:order-1 lg:h-full lg:flex-col flex flex-row flex-wrap justify-between items-center gap-4">
                         {relate_games && relate_games.slice(0, 5).map(game => (
                             <GameCard name={game.name} href={game.href} image={game.image} />
                         ))}
                     </div>
+
                     <div className="order-1 lg:order-2 flex-1 w-full lg:max-w-[60rem]">
                         <GameArea name={main_game.name}
                             iframe_url={main_game.iframe_url}
@@ -61,6 +68,8 @@ const GamePage = ({
                     <script async data-cfasync="false" src="//pl26416490.profitableratecpm.com/31a50d07a2355afffb47dc172427319e/invoke.js"></script>
                     <div id="container-31a50d07a2355afffb47dc172427319e"></div>
                 </div> */}
+                <div id="container-31a50d07a2355afffb47dc172427319e"></div>
+
 
             </div>
 

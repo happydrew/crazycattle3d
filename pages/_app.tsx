@@ -46,6 +46,20 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       </Script> */}
 
       {/* adsterra banner */}
+      <Script type="text/javascript">
+        {`
+        atOptions = {
+          'key' : 'b14ecaf7ba922d58c6328006b470fd04',
+          'format' : 'iframe',
+          'height' : 600,
+          'width' : 160,
+          'params' : { }
+        };
+      `}
+      </Script>
+      <Script type="text/javascript" src="//www.highperformanceformat.com/b14ecaf7ba922d58c6328006b470fd04/invoke.js"></Script>
+
+      {/* adsterra banner */}
       {/* <Script type="text/javascript">
         {`
         atOptions = {
@@ -58,7 +72,6 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       `}
       </Script>
       <Script type="text/javascript" src="//www.highperformanceformat.com/5d8681ea81dce92641d324ff2850aa08/invoke.js"></Script> */}
-
 
       {/* Google tag (gtag.js)  */}
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMXB2WGM2"></Script>
