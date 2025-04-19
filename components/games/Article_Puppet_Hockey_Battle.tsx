@@ -3,17 +3,17 @@ import React from 'react';
 const PuppetHockeyBattle: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Puppet Hockey Battle</h1>
+      <h2 className="mb-4">Puppet Hockey Battle</h2>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Introduction</h2>
+        <h3 className="mb-2">Introduction</h3>
         <p>
           <strong>Puppet Hockey Battle</strong> is an engaging and fast-paced ice hockey game where players control puppet-like characters representing various national teams. Designed for quick matches, each game lasts 60 seconds, offering an exhilarating experience that tests your reflexes and strategic thinking. The game's accessibility across multiple platforms, including web browsers, makes it a popular choice among casual gamers.
         </p>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Gameplay</h2>
+        <h3 className="mb-2">Gameplay</h3>
         <p>
           Players select their favorite national team and compete in one-on-one matches against AI opponents. The objective is to score more goals than your opponent within the 60-second time limit. The game emphasizes quick decision-making and precise control to outmaneuver the opposing player.
         </p>
@@ -31,7 +31,7 @@ const PuppetHockeyBattle: React.FC = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Controls</h2>
+        <h3 className="mb-2">Controls</h3>
         <p>
           The game features simple and intuitive controls, making it accessible to players of all ages:
         </p>
@@ -49,7 +49,7 @@ const PuppetHockeyBattle: React.FC = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Game Features</h2>
+        <h3 className="mb-2">Game Features</h3>
         <ul className="list-disc list-inside">
           <li>
             <strong>Quick Matches:</strong> Each game is designed to be a quick 60-second match, perfect for short play sessions.
@@ -70,7 +70,7 @@ const PuppetHockeyBattle: React.FC = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Strategies</h2>
+        <h3 className="mb-2">Strategies</h3>
         <p>
           To excel in <strong>Puppet Hockey Battle</strong>, consider the following strategies:
         </p>
@@ -88,7 +88,7 @@ const PuppetHockeyBattle: React.FC = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-2">Conclusion</h2>
+        <h3 className="mb-2">Conclusion</h3>
         <p>
           <strong>Puppet Hockey Battle</strong> offers a unique blend of fast-paced action and strategic gameplay, making it an enjoyable experience for both casual and competitive players. Its simple controls, quick match times, and cross-platform availability make it a standout choice for fans of sports games.
         </p>

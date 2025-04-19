@@ -80,20 +80,20 @@ export const Concat = () => {
         <section className="bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 py-8 pb-12">
             <div className="max-w-4xl mx-auto px-4">
                 <div className="mb-6 sm:mb-8 md:mb-12 text-center">
-                    <h2 className="max-w-xl mx-auto text-3xl font-bold">Concat Us</h2>
-                    <p className="max-w-screen-sm mx-auto text-base text-zinc-400">Have questions, feedback, or need support? We're here to help! Feel free to reach out, and we'll get back to you as soon as possible.</p>
+                    <h2>Concat Us</h2>
+                    <p className="max-w-screen-sm mx-auto">Have questions, feedback, or need support? We're here to help! Feel free to reach out, and we'll get back to you as soon as possible.</p>
                 </div>
                 <div className="bg-white dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-700 rounded-lg shadow-lg p-2 flex flex-col sm:flex-row gap-2 sm:gap-4">
-                    <div className="p-4 bg-teal-500 text-white rounded-md w-full sm:w-60 md:w-72">
-                        <h3 className="text-base font-bold mb-2">Contact Information</h3>
+                    <div className="p-4 text-white rounded-md w-full sm:w-60 md:w-72">
+                        <h3>Contact Information</h3>
                         <p className="text-sm opacity-70 mb-8">Any questions, feedback, or need support? Feel free to reach out, and we'll get back to you as soon as possible.</p>
                         <ul className="text-sm grid grid-cols-2 sm:grid-cols-1 gap-4">
                             <li>
-                                <h4 className="font-medium text-teal-50">Email us :</h4>
+                                <h4>Email us :</h4>
                                 <p>drewgrant616@gmail.com</p>
                             </li>
                             <li>
-                                <h4 className="font-medium text-teal-50">Join our community :</h4>
+                                <h4>Join our community :</h4>
                                 {/* <p>
                                     <a className='text-white underline'
                                         href="https://ezymp3ccyoutubetomp3.quora.com/?invite_code=wJ55ugDw4sbNAOAAmIRs" target='_blank'>

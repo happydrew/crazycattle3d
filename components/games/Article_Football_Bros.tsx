@@ -4,7 +4,7 @@ import Image from 'next/image';
 const FootballBrosPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-8">
-      <h1 className="text-3xl font-bold text-center">Football Bros: An Action-Packed Football Experience</h1>
+      <h2 className="text-center">Football Bros: An Action-Packed Football Experience</h2>
 
       <p>
         Football Bros is an adrenaline-fueled multiplayer football game that merges classic football mechanics with arcade-style power-ups, delivering a unique blend of strategy, chaos, and fast-paced action. Whether you play solo or team up with friends, this football game offers an immersive experience that keeps you on the edge of your seat.
@@ -12,17 +12,17 @@ const FootballBrosPage: React.FC = () => {
 
       <Image src="/assets/images/games/football-bros.webp" alt="Football Bros" width={600} height={400} />
 
-      <h2 className="text-2xl font-semibold">Game Overview</h2>
+      <h3>Game Overview</h3>
       <p>
         In Football Bros, you can choose between Quick Play for instant, exciting matches or Franchise Mode for a deeper, team-management experience as you aim for the Super Bro Bowl Championship. The game supports both online and local multiplayer options, making it easy to challenge friends or compete against players from around the globe.
       </p>
 
-      <h2 className="text-2xl font-semibold">Core Gameplay</h2>
+      <h3>Core Gameplay</h3>
       <p>
         The objective is to outscore your opponents by mastering passing, shooting, and tackling within a set time limit. Each match is a test of your strategic play and quick reflexes. With various characters at your disposal—each boasting unique strengths and special moves—Football Bros lets you customize your play style to dominate on the field.
       </p>
 
-      <h2 className="text-2xl font-semibold">Controls</h2>
+      <h3>Controls</h3>
       <ul className="list-disc list-inside space-y-2">
         <li>
           <strong>Movement:</strong> Use the arrow keys or WASD to navigate your player across the field.
@@ -38,7 +38,7 @@ const FootballBrosPage: React.FC = () => {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold">Key Features</h2>
+      <h3>Key Features</h3>
       <ul className="list-disc list-inside space-y-2">
         <li>
           <strong>Multiplayer Modes:</strong> Engage in thrilling 1v1 matches or join global multiplayer games.
@@ -54,7 +54,7 @@ const FootballBrosPage: React.FC = () => {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold">Strategies for Success</h2>
+      <h3>Strategies for Success</h3>
       <ul className="list-disc list-inside space-y-2">
         <li>
           <strong>Master the Basics:</strong> Focus on passing, shooting, and tackling to build a solid foundation.
@@ -73,7 +73,7 @@ const FootballBrosPage: React.FC = () => {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold">Pro Tips & Additional Strategies</h2>
+      <h3>Pro Tips & Additional Strategies</h3>
       <ul className="list-disc list-inside space-y-2">
         <li>
           <strong>Save Special Moves:</strong> Use speed boosts and defensive shields at game-changing moments.
@@ -89,7 +89,7 @@ const FootballBrosPage: React.FC = () => {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold">Watch Football Bros in Action</h2>
+      <h3>Watch Football Bros in Action</h3>
 
       <p>
         Ready to hit the field? Jump into Football Bros and experience the perfect blend of strategy and arcade football action. Customize your team, master your moves, and outsmart your opponents for a chance at the Super Bro Bowl Championship!

@@ -8,9 +8,16 @@ export default {
       layout: 'raw'
     }
   },
+  "crazy-cattle-3d-download": {
+    type: 'page',
+    title: 'Download',
+    theme: {
+      layout: 'raw'
+    }
+  },
   "baseball-bros-io": {
     type: 'page',
-    title: 'Baseball Bros IO',
+    title: 'Baseball Bros',
     display: 'hidden',
     theme: {
       layout: 'raw'
@@ -104,9 +111,41 @@ export default {
       layout: 'raw'
     }
   },
-  "crazy-cattle-3d-download": {
+  "crazy-motorcycle": {
     type: 'page',
-    title: 'Crazy Cattle 3D Download',
+    title: 'Crazy Motorcycle',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
+  "crazy-grand-prix": {
+    type: 'page',
+    title: 'Crazy Grand Prix',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
+  "crazy-roll-3d": {
+    type: 'page',
+    title: 'Crazy Roll 3D',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
+  "crazy-stunt-cars-multiplayer": {
+    type: 'page',
+    title: 'Crazy Stunt Cars Multiplayer',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
+  "crazy-motox-multiplayer": {
+    type: 'page',
+    title: 'Crazy Motox Multiplayer',
     display: 'hidden',
     theme: {
       layout: 'raw'
@@ -116,13 +155,13 @@ export default {
   //   type: 'page',
   //   title: 'Documentation'
   // },
-  // concat: {
-  //   type: 'page',
-  //   title: 'Concat',
-  //   theme: {
-  //     layout: 'raw'
-  //   }
-  // },
+  concat: {
+    type: 'page',
+    title: 'Concat',
+    theme: {
+      layout: 'raw'
+    }
+  },
   404: {
     type: 'page',
     theme: {

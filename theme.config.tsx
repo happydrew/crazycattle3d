@@ -11,9 +11,21 @@ const inter = Inter({ subsets: ['latin'] });
 
 const logo = (
   <div className="flex justify-center items-center" title="AutoFormAI">
-    <Image src="/favicon.png" alt="baseballbros logo" width={40} height={40} />
-    <span className={`${inter.className} font-cartoon ml-2 text-cyan-400 text-2xl lg:text-4xl font-black drop-shadow-[0_0_10px_#00FFFF]`}>
-      Crazy<span className='text-red-500'>Cattle</span>3D.<span className='text-yellow-500'>fun</span>
+    <Image src="/favicon.png" alt="baseballbros logo" width={40} height={40} className='rounded-md' />
+    <span className={`${inter.className} font-logo text-base lg:text-xl ml-2 font-black drop-shadow-[0_0_10px_#00FFFF]`}>
+      <span className="text-pink-500">C</span>
+      <span className="text-purple-500">r</span>
+      <span className="text-blue-500">a</span>
+      <span className="text-cyan-500">z</span>
+      <span className="text-green-500">y</span>
+      <span className="text-yellow-500">C</span>
+      <span className="text-orange-500">a</span>
+      <span className="text-red-500">t</span>
+      <span className="text-rose-500">t</span>
+      <span className="text-fuchsia-400">l</span>
+      <span className="text-indigo-500">e</span>
+      <span className="text-emerald-500">3</span>
+      <span className="text-amber-500">D</span>
     </span>
   </div>
 )
@@ -33,7 +45,7 @@ function List({
 }) {
   return (
     <ul className="text-sm flex flex-col gap-4 max-lg:w-[46%]">
-      <h3 className="text-lg font-bold">{url ? <NextLink href={url} className={classes.link}>{title}</NextLink> : title}</h3>
+      <h3 className='text-lg font-light text-gray-400'>{url ? <NextLink href={url} className={classes.link}>{title}</NextLink> : title}</h3>
       {items.map(item => (
         <li key={item.title}>
           <NextLink href={item.url} className={classes.link}>

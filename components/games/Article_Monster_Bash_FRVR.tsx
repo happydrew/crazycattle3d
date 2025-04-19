@@ -7,8 +7,8 @@ const MonsterBashFRVRIntro: React.FC = () => {
     <>
       <div className="max-w-4xl mx-auto px-4 py-8">
         <header className="mb-8 text-center">
-          <h1 className="text-4xl font-bold mb-4">Monster Bash FRVR</h1>
-          <p className="text-xl">
+          <h2 className="mb-4">Monster Bash FRVR</h2>
+          <p>
             Experience the ultimate unblocked arcade baseball game with <strong>Monster Bash FRVR</strong>—where simple controls meet dynamic gameplay.
           </p>
         </header>
@@ -21,18 +21,18 @@ const MonsterBashFRVRIntro: React.FC = () => {
         />
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Introduction</h2>
-          <p className="text-lg leading-relaxed">
-            <strong>Monster Bash FRVR</strong> is an engaging arcade baseball game developed by Chris Benjaminsen and released in June 2020. Built with HTML5, it’s available on multiple platforms including web browsers, making it easily accessible and unblocked for all players.
+          <h3 className="mb-2">Introduction</h3>
+          <p className="leading-relaxed">
+            <strong>Monster Bash FRVR</strong> is an engaging arcade baseball game developed by Chris Benjaminsen and released in June 2020. Built with HTML5, it's available on multiple platforms including web browsers, making it easily accessible and unblocked for all players.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Gameplay Overview</h2>
-          <p className="text-lg leading-relaxed mb-4">
-            In this game, your main objective is to hit a baseball as far as possible using simple one-click controls. As you play, you’ll encounter:
+          <h3 className="mb-2">Gameplay Overview</h3>
+          <p className="leading-relaxed mb-4">
+            In this game, your main objective is to hit a baseball as far as possible using simple one-click controls. As you play, you'll encounter:
           </p>
-          <ul className="list-disc list-inside text-lg">
+          <ul className="list-disc list-inside">
             <li>
               <strong>Gold-filled Mushrooms:</strong> Collect gold to upgrade your equipment and boost your performance.
             </li>
@@ -43,11 +43,11 @@ const MonsterBashFRVRIntro: React.FC = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Controls & Operation</h2>
-          <p className="text-lg leading-relaxed mb-4">
+          <h3 className="mb-2">Controls & Operation</h3>
+          <p className="leading-relaxed mb-4">
             The game features straightforward and intuitive controls:
           </p>
-          <ul className="list-disc list-inside text-lg">
+          <ul className="list-disc list-inside">
             <li>
               <strong>Throwing the Ball:</strong> Simply tap or click anywhere on the screen to launch the ball.
             </li>
@@ -58,11 +58,11 @@ const MonsterBashFRVRIntro: React.FC = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Game Features & Innovations</h2>
-          <p className="text-lg leading-relaxed mb-4">
+          <h3 className="mb-2">Game Features & Innovations</h3>
+          <p className="leading-relaxed mb-4">
             <strong>Monster Bash FRVR</strong> stands out with its vibrant visuals and engaging mechanics:
           </p>
-          <ul className="list-disc list-inside text-lg">
+          <ul className="list-disc list-inside">
             <li>
               <strong>Vibrant Cartoon Graphics:</strong> Enjoy colorful, playful visuals that bring the game to life.
             </li>
@@ -79,11 +79,11 @@ const MonsterBashFRVRIntro: React.FC = () => {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Strategies for Success</h2>
-          <p className="text-lg leading-relaxed mb-4">
+          <h3 className="mb-2">Strategies for Success</h3>
+          <p className="leading-relaxed mb-4">
             To master <strong>Monster Bash FRVR</strong>, keep these tips in mind:
           </p>
-          <ul className="list-disc list-inside text-lg">
+          <ul className="list-disc list-inside">
             <li>
               <strong>Perfect Your Timing:</strong> Swing at the optimal moment to achieve maximum distance.
             </li>
@@ -100,7 +100,7 @@ const MonsterBashFRVRIntro: React.FC = () => {
         </section>
 
         <footer className="mt-8 text-center">
-          <p className="text-xl font-medium">
+          <p>
             Enjoy <strong>Monster Bash FRVR</strong> unblocked and experience a fun, dynamic arcade baseball adventure!
           </p>
         </footer>

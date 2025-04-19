@@ -16,7 +16,7 @@ export default {
         const date = new Date(frontMatter.date)
         return (
           <>
-            <h1 className="text-balance">{title}</h1>
+            <h1>{title}</h1>
             <div className="text-gray-500 text-center">
               <time dateTime={date.toISOString()}>
                 {date.toLocaleDateString("en", {

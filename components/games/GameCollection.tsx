@@ -15,7 +15,7 @@ const GameCollection: React.FC<GameCollectionProps> = ({
         <div className=" bg-zinc-800 p-4">
             <div className="max-w-6xl mx-auto">
 
-                <h1 className='text-2xl font-catamaran text-yellow-500 mb-2 text-center font-bold'>{title}</h1>
+                <h1 className='mb-2 text-center'>{title}</h1>
 
                 {/* Main Game Area */}
                 <div className="flex-1">
@@ -28,7 +28,7 @@ const GameCollection: React.FC<GameCollectionProps> = ({
                                     style={{ backgroundImage: game.image }}
                                     className={`block bg-white rounded-lg mb-2 cursor-pointer hover:shadow-lg transition-shadow relative w-24 h-24`}
                                 >
-                                    <p className="text-xs text-center font-medium absolute bottom-0 left-0 w-full h-8">{game.title}</p>
+                                    <p className="absolute bottom-0 left-0 w-full h-8">{game.title}</p>
                                 </a>
                             ))}
                         </div>

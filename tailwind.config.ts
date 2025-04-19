@@ -14,18 +14,25 @@ export default {
     },
     extend: {
       colors: {
-        primary: {
-          DEFAULT: yellow[600],
-          light: yellow[500],
-          dark: "#0055aa",
-          500: "#0077cc",
-        },
-        "conf-black": "#0e031c",
-        black: "#1b1b1b",
+        'bg-dark': '#121212',
+        'section-dark': '#1E1E1E',
+        primary: '#3A9FF3',
+        secondary: '#FFAA00',
+        accent: '#FF4365',
+        'text-light': '#FFFFFF',
+        'text-muted': '#CCCCCC',
       },
       fontFamily: {
-        catamaran: ['Catamaran', 'sans-serif'],
-        cartoon: ["Bangers", "Luckiest Guy", "Comic Sans MS", "sans-serif"]
+        logo: ['"Press Start 2P"', 'sans-serif'],
+        header: ['"Russo One"', 'sans-serif'],
+        body: ['"Kanit"', 'sans-serif'],
+        open: ['"Open Sans"', 'sans-serif'],
+        mont: ['"Montserrat"', 'sans-serif'],
+        orbitron: ['"Orbitron"', 'sans-serif'],
+        vt323: ['"VT323"', 'monospace'],
+        chakra: ['"Chakra Petch"', 'sans-serif'],
+        exo: ['"Exo 2"', 'sans-serif'],
+        kanit: ['"Kanit"', 'sans-serif'],
       }
     }
   },

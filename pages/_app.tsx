@@ -16,6 +16,13 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
 
+        {/*游戏主题字体 */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&family=Open+Sans:wght@400;600&family=Montserrat&family=Orbitron:wght@400;600;700&family=VT323&family=Chakra+Petch:wght@400;600;700&family=Exo+2:wght@400;600;700&family=Kanit:wght@400;600;700&display=swap"
+          rel="stylesheet"
+        />
+
+
         {/* Google Adsense */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4907197973761221" crossOrigin="anonymous"></script>
         <meta name="google-adsense-account" content="ca-pub-4907197973761221" />

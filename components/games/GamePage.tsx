@@ -24,7 +24,7 @@ const GamePage = ({
             </div> */}
 
             {/* Game name */}
-            <div className='text-3xl font-cartoon text-yellow-500 text-center font-bold mb-2'>{main_game.name}</div>
+            <h1 className='text-center mb-2'>{main_game.name}</h1>
 
             {/* Game area */}
             <div className="w-full flex flex-col lg:flex-row justify-center items-center">
@@ -68,13 +68,13 @@ const GamePage = ({
             <div id="article_and_recommand" className="w-full flex flex-col lg:flex-row justify-center items-start gap-10 mt-10">
 
                 <div id="article" className="w-full lg:w-[48%] flex flex-col justify-center items-center gap-4 border-4 border-green-900 rounded-2xl p-2">
-                    <p className="font-cartoon text-yellow-500 font-bold text-2xl">About {main_game.name}</p>
+                    <p className="text-2xl font-header font-semibold text-sky-500">About {main_game.name}</p>
                     <Article />
                 </div>
 
                 <div id="recommand" className="w-full lg:w-[48%] flex flex-col py-2 justify-center items-center gap-4 border-4 border-green-900 rounded-2xl">
-                    <p className="font-cartoon text-yellow-500 font-bold text-2xl">Recommended Games</p>
-                    <div className="w-full flex flex-wrap justify-center items-center gap-4 px-0">
+                    <p className="text-2xl font-header font-semibold text-sky-500">Recommended Games</p>
+                    <div className="w-full flex flex-wrap justify-center items-center gap-4 px-0 py-2">
                         {relate_games && relate_games.length > 10 && relate_games.slice(10).map(game => (
                             <GameCard name={game.name} href={game.href} image={game.image} />
                         ))}

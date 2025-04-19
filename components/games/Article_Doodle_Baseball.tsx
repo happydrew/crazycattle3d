@@ -6,13 +6,13 @@ const DoodleBaseballInfo: React.FC = () => {
   return (
     <section className="max-w-4xl mx-auto px-6 py-10 leading-relaxed">
       {/* Introduction */}
-      <h1 className="text-3xl md:text-4xl font-bold mb-6">
+      <h2 className="mb-6">
         Introduction to Doodle Baseball
-      </h1>
+      </h2>
       <p className="mb-4">
         Doodle Baseball is a captivating online game that fuses the classic thrill of baseball with charming, hand-drawn doodle graphics. Originally featured as a{" "}
-        <strong>Google Doodle Baseball</strong> celebration, the game has evolved into a unique experience for both baseball fans and casual gamers alike. Whether you’re searching for a{" "}
-        <strong>doodle baseball game</strong> that’s fun and accessible or a <strong>google doodle baseball game</strong> with quirky visuals, this game promises endless enjoyment.
+        <strong>Google Doodle Baseball</strong> celebration, the game has evolved into a unique experience for both baseball fans and casual gamers alike. Whether you're searching for a{" "}
+        <strong>doodle baseball game</strong> that's fun and accessible or a <strong>google doodle baseball game</strong> with quirky visuals, this game promises endless enjoyment.
       </p>
 
       <Image
@@ -24,13 +24,13 @@ const DoodleBaseballInfo: React.FC = () => {
       />
 
       {/* Gameplay Overview */}
-      <h2 className="text-2xl font-semibold mb-4">Gameplay Overview</h2>
+      <h3 className="mb-4">Gameplay Overview</h3>
       <p className="mb-4">
-        In Doodle Baseball, players assume the role of a batter with a simple yet engaging objective: hit the ball with perfect timing to score runs. With every swing, you’re challenged to convert pitches into home runs, while keeping an eye on your strike count. This isn’t just any baseball game—it’s an innovative twist on a timeless sport, often referred to by keywords such as <strong>baseball google doodle</strong> and <strong>google baseball doodle</strong>.
+        In Doodle Baseball, players assume the role of a batter with a simple yet engaging objective: hit the ball with perfect timing to score runs. With every swing, you're challenged to convert pitches into home runs, while keeping an eye on your strike count. This isn't just any baseball game—it's an innovative twist on a timeless sport, often referred to by keywords such as <strong>baseball google doodle</strong> and <strong>google baseball doodle</strong>.
       </p>
 
       {/* Gameplay Controls */}
-      <h2 className="text-2xl font-semibold mb-4">Gameplay Controls</h2>
+      <h3 className="mb-4">Gameplay Controls</h3>
       <p className="mb-4">
         The game is designed to be easy to pick up and play:
       </p>
@@ -44,7 +44,7 @@ const DoodleBaseballInfo: React.FC = () => {
       </ul>
 
       {/* Game Features */}
-      <h2 className="text-2xl font-semibold mb-4">Game Features</h2>
+      <h3 className="mb-4">Game Features</h3>
       <p className="mb-4">
         Doodle Baseball stands out with its innovative design and playful elements:
       </p>
@@ -59,12 +59,12 @@ const DoodleBaseballInfo: React.FC = () => {
           <strong>Immersive Sound Effects:</strong> The lively crowd cheers and crisp sound effects create an authentic stadium atmosphere.
         </li>
         <li>
-          <strong>Innovative Gameplay Modes:</strong> Whether you’re playing casually or competing for high scores, the game offers varied challenges. Look for hints of <strong>google doodle games baseball</strong> and <strong>baseball doodle game</strong> excitement throughout!
+          <strong>Innovative Gameplay Modes:</strong> Whether you're playing casually or competing for high scores, the game offers varied challenges. Look for hints of <strong>google doodle games baseball</strong> and <strong>baseball doodle game</strong> excitement throughout!
         </li>
       </ul>
 
       {/* Gameplay Strategies */}
-      <h2 className="text-2xl font-semibold mb-4">Gameplay Strategies</h2>
+      <h3 className="mb-4">Gameplay Strategies</h3>
       <p className="mb-4">
         Mastering Doodle Baseball is all about timing and strategy. Here are some tips:
       </p>
@@ -84,13 +84,13 @@ const DoodleBaseballInfo: React.FC = () => {
       </ul>
 
       {/* Additional Content & Multimedia */}
-      <h2 className="text-2xl font-semibold mb-4">Additional Content & Multimedia</h2>
+      <h3 className="mb-4">Additional Content & Multimedia</h3>
       <p className="mb-4">
         Enhance your understanding of Doodle Baseball with gameplay videos and screenshots. Check out the following example:
       </p>
-      <div className="mb-6">
+      <div className="mb-6 aspect-video">
         <iframe
-          className="w-[700px] h-[400px] rounded-lg shadow-md"
+          className="w-full h-full"
           src="https://www.youtube.com/embed/-ZeX-L9x9mA"
           title="Google Doodle Baseball Gameplay"
           frameBorder="0"
@@ -100,13 +100,13 @@ const DoodleBaseballInfo: React.FC = () => {
       </div>
 
       {/* Innovative Twist */}
-      <h2 className="text-2xl font-semibold mb-4">Innovative Twist</h2>
+      <h3 className="mb-4">Innovative Twist</h3>
       <p className="mb-4">
         Building on the classic formula, our version of Doodle Baseball integrates creative power-ups and customizable characters—adding layers of strategy and personalization. This fresh take transforms a typical <strong>doodle baseball unblocked</strong> session into a dynamic and memorable adventure, setting it apart from standard <strong>google doodle baseball unblocked</strong> experiences.
       </p>
 
       {/* Conclusion */}
-      <h2 className="text-2xl font-semibold mb-4">Conclusion</h2>
+      <h3 className="mb-4">Conclusion</h3>
       <p>
         Whether you refer to it as <strong>doodle google baseball</strong> or <strong>google doodles baseball</strong>, Doodle Baseball remains a delightful fusion of art, sports, and innovation. Its accessible controls, engaging graphics, and strategic gameplay ensure it stays at the top of the list for anyone seeking a fun, refreshing gaming experience.
       </p>

@@ -50,56 +50,51 @@ const GameArea: React.FC<GameInfo> = ({
     };
 
     return (
-        <div className="w-full">
-            {/* Main Game Area */}
-            <div className="flex-1">
-                <div className="bg-zinc-700 rounded-lg px-2 pb-1">
-                    {/* UpBar */}
-                    <div className="flex items-center justify-between px-4 py-1 rounded-t-lg">
-                        <div className="flex items-center gap-1">
-                            {[1, 2, 3, 4].map((star) => (
-                                <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
-                            ))}
-                            <Star className="w-6 h-6 fill-yellow-400 text-yellow-400" strokeWidth={1} />
-                            <span className="ml-2 text-sm text-white font-catamaran">{votes} votes {score}/5</span>
-                        </div>
-                        <div className="flex gap-2">
-                            {/* <button className="p-2" onClick={toggleMute}>
+        <div className="flex-1 w-full flex flex-col justify-center items-center bg-transparent rounded-lg px-2 pb-1">
+            {/* UpBar */}
+            <div className="w-full flex items-center justify-between px-4 py-1 rounded-t-lg">
+                <div className="flex items-center gap-1">
+                    {[1, 2, 3, 4].map((star) => (
+                        <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
+                    ))}
+                    <Star className="w-6 h-6 fill-yellow-400 text-yellow-400" strokeWidth={1} />
+                    <span className="ml-2 text-sm text-white font-catamaran">{votes} votes {score}/5</span>
+                </div>
+                <div className="flex gap-2">
+                    {/* <button className="p-2" onClick={toggleMute}>
                                     {isMuted ? <VolumeX color='#eab308' strokeWidth={4} size={24} /> : <Volume2 color='#eab308' strokeWidth={4} size={24} />}
                                 </button> */}
-                            <button className="p-2" onClick={handleFullscreen}><Fullscreen color='#eab308' strokeWidth={4} size={24} /></button>
-                        </div>
-                    </div>
+                    <button className="p-2" onClick={handleFullscreen}><Fullscreen color='#eab308' strokeWidth={4} size={24} /></button>
+                </div>
+            </div>
 
-                    {/* Game Iframe */}
-                    <div className="aspect-video rounded-lg relative">
-                        <div id="iframe-container" className='w-full h-full flex justify-center items-center'>
-                            <iframe
-                                ref={gameIframeRef}
-                                src={iframe_url}
-                                className="w-full h-full overflow-hidden"
-                                tabIndex={0}
-                                allowFullScreen
-                            />
-                        </div>
-                    </div>
+            {/* Game Iframe */}
+            <div className="w-full aspect-video rounded-lg relative">
+                <div id="iframe-container" className='w-full h-full flex justify-center items-center'>
+                    <iframe
+                        ref={gameIframeRef}
+                        src={iframe_url}
+                        className="w-full h-full overflow-hidden"
+                        tabIndex={0}
+                        allowFullScreen
+                    />
+                </div>
+            </div>
 
-                    {/* Game Controls */}
-                    <div className="flex justify-between mt-2">
-                        <div className="flex gap-2">
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <span className='text-sm text-gray-300 font-catamaran font-bold mx-4'>
-                                {/* {gameControl ? <span className='text-yellow-500'>Tip:</span> : null} {gameControl} */}
+            {/* Game Controls */}
+            <div className="w-full flex justify-between mt-2">
+                <div className="flex gap-2">
+                </div>
+                <div className="flex items-center gap-2">
+                    <span className='text-sm text-gray-300 font-catamaran font-bold mx-4'>
+                        {/* {gameControl ? <span className='text-yellow-500'>Tip:</span> : null} {gameControl} */}
 
-                            </span>
-                        </div>
-                        {/* <a href="http://gamehome.fun"
+                    </span>
+                </div>
+                {/* <a href="http://gamehome.fun"
                             className="px-4 py-2 bg-yellow-500 text-white rounded">
                             MORE GAMES
                         </a> */}
-                    </div>
-                </div>
             </div>
         </div>
     );
