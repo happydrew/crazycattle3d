@@ -48,7 +48,7 @@ const GamePage = ({
                         ))}
                     </div>
 
-                    <div className="order-1 lg:order-2 flex-1 w-full lg:max-w-[60rem]">
+                    <div className="order-1 lg:order-2 flex-1 w-full h-full lg:max-w-[60rem]">
                         <GameArea name={main_game.name}
                             iframe_url={main_game.iframe_url}
                             votes={main_game.votes}

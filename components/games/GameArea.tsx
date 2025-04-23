@@ -56,7 +56,7 @@ const GameArea: React.FC<GameInfo> = ({
     };
 
     return (
-        <div className="flex-1 w-full flex flex-col justify-center items-center bg-transparent rounded-lg px-2 pb-1">
+        <div className="flex-1 w-full flex flex-col justify-center items-center bg-transparent rounded-lg px-2">
             {/* UpBar */}
             <div className="w-full flex items-center justify-between px-4 py-1 rounded-t-lg">
                 <div className="flex items-center gap-1">
@@ -79,7 +79,7 @@ const GameArea: React.FC<GameInfo> = ({
             </div>
 
             {/* Game Iframe or Play Now */}
-            <div className="w-full aspect-video rounded-lg relative">
+            <div className="w-full aspect-video rounded-lg relative flex-1">
                 {gameStarted ? (
                     <div id="iframe-container" title={name} className='w-full h-full flex justify-center items-center'>
                         <iframe
@@ -126,7 +126,7 @@ const GameArea: React.FC<GameInfo> = ({
                                     }}
                                 />
                             </div>
-                            {/* <div className="text-3xl font-header mb-8 text-white">{name}</div> */}
+                            <div className="text-3xl font-header m-4 text-white">{name}</div>
                             <button
                                 onClick={startGame}
                                 className="bg-indigo-600 hover:bg-indigo-700 text-xl text-white font-bold py-3 px-10 rounded-full flex items-center shadow-lg"
@@ -142,7 +142,7 @@ const GameArea: React.FC<GameInfo> = ({
             </div>
 
             {/* Game Controls */}
-            <div className="w-full flex justify-between mt-2">
+            <div className="w-full flex justify-between">
                 <div className="flex gap-2">
                 </div>
                 <div className="flex items-center gap-2">

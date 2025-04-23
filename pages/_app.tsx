@@ -118,7 +118,8 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
 
       <Component {...pageProps} />
 
-      {/* <Script strategy='lazyOnload' type='text/javascript' src='//pl26416596.profitableratecpm.com/0d/2e/23/0d2e2375eb22c7adee4bcab7b29bb9c7.js'></Script> */}
+      {/* adsterra */}
+      <Script strategy='lazyOnload' type='text/javascript' src='//pl26416596.profitableratecpm.com/0d/2e/23/0d2e2375eb22c7adee4bcab7b29bb9c7.js'></Script>
     </>
   )
 }
