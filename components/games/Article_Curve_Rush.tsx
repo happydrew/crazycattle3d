@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { YouTubeLazy } from '../YouTubeLazy';
 
 const CurveRushPage: React.FC = () => {
   return (
@@ -52,15 +53,11 @@ const CurveRushPage: React.FC = () => {
       </p>
 
       <div className="flex justify-center mt-8">
-        <iframe
-          width="800"
-          height="500"
-          src="https://www.youtube.com/embed/A3f6-m0D0h4"
+        <YouTubeLazy
+          videoId="A3f6-m0D0h4"
           title="Curve Rush Gameplay Walkthrough"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+          className="w-full h-auto aspect-video"
+        />
       </div>
     </div>
   );

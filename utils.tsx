@@ -1,4 +1,4 @@
-export { wait, isValidNumber, validEmailFormat, validatePasswordStrengthMid ,validYoutubeUrl};
+export { wait, isValidNumber, validEmailFormat, validatePasswordStrengthMid, validYoutubeUrl };
 
 function wait(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms))
@@ -16,6 +16,37 @@ function validEmailFormat(email: string): boolean {
 function validYoutubeUrl(url: string): boolean {
   const regex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/(watch\?v=)?([a-zA-Z0-9_-]{11})(&t=([0-9]+m[0-9]+s))?$/;
   return regex.test(url);
+}
+
+/**
+ * 从YouTube URL中提取视频ID
+ * @param url YouTube视频链接
+ * @returns 视频ID
+ */
+export function extractYoutubeVideoId(url: string): string | null {
+  if (!validYoutubeUrl(url)) {
+    return null;
+  }
+
+  // 处理youtube.com格式
+  let match = url.match(/youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})/);
+  if (match) {
+    return match[1];
+  }
+
+  // 处理youtu.be格式
+  match = url.match(/youtu\.be\/([a-zA-Z0-9_-]{11})/);
+  if (match) {
+    return match[1];
+  }
+
+  // 处理embed格式
+  match = url.match(/youtube\.com\/embed\/([a-zA-Z0-9_-]{11})/);
+  if (match) {
+    return match[1];
+  }
+
+  return null;
 }
 
 /**

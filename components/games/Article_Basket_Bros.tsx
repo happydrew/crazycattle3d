@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { YouTubeLazy } from '../YouTubeLazy';
 
 const BasketBrosPage: React.FC = () => {
   return (
@@ -49,16 +50,10 @@ const BasketBrosPage: React.FC = () => {
 
       <h3 className="text-2xl font-semibold">Watch Basket Bros in Action</h3>
       <div className="flex justify-center aspect-video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/s659q7aKWVQ"
+        <YouTubeLazy
+          videoId="s659q7aKWVQ"
           title="Basket Bros Gameplay Tutorial"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="w-full h-full"
-        ></iframe>
+        />
       </div>
 
       <p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { YouTubeLazy } from '../YouTubeLazy';
 
 const CrazyStuntCarsMultiplayerPage = () => {
   return (
@@ -65,13 +66,11 @@ const CrazyStuntCarsMultiplayerPage = () => {
 
       <section className="mb-8">
         <h3>Video Walkthrough</h3>
-        <iframe
-          src="https://www.youtube.com/embed/MG-RnnLN2ZA"
+        <YouTubeLazy
+          videoId="MG-RnnLN2ZA"
           title="Crazy Stunt Cars Multiplayer Gameplay"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
           className="w-full h-auto aspect-video"
-        ></iframe>
+        />
       </section>
 
       <section className="mb-8">

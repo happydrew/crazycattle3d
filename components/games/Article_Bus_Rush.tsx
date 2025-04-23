@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { YouTubeLazy } from '../YouTubeLazy';
 
 const BusRushPage: React.FC = () => {
   return (
@@ -51,16 +52,10 @@ const BusRushPage: React.FC = () => {
         Experience the thrill of Bus Rush in action with this gameplay walkthrough video:
       </p>
       <div className="flex justify-center aspect-video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/TtSpcxxqsQ4"
+        <YouTubeLazy
+          videoId="TtSpcxxqsQ4"
           title="Bus Rush Gameplay Walkthrough"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="w-full h-full"
-        ></iframe>
+        />
       </div>
 
       <p>

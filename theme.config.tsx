@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const logo = (
   <div className="flex justify-center items-center" title="AutoFormAI">
-    <Image src="/favicon.png" alt="baseballbros logo" width={40} height={40} className='rounded-md' />
+    <Image src="/favicon.ico" alt="crazy cattle 3d logo" width={40} height={40} className='rounded-md' />
     <span className={`${inter.className} font-logo text-base lg:text-xl ml-2 font-black drop-shadow-[0_0_10px_#00FFFF]`}>
       <span className="text-pink-500">C</span>
       <span className="text-purple-500">r</span>

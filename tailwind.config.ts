@@ -25,17 +25,29 @@ export default {
       fontFamily: {
         logo: ['"Press Start 2P"', 'sans-serif'],
         header: ['"Russo One"', 'sans-serif'],
-        body: ['"Kanit"', 'sans-serif'],
-        open: ['"Open Sans"', 'sans-serif'],
-        mont: ['"Montserrat"', 'sans-serif'],
-        orbitron: ['"Orbitron"', 'sans-serif'],
-        vt323: ['"VT323"', 'monospace'],
-        chakra: ['"Chakra Petch"', 'sans-serif'],
-        exo: ['"Exo 2"', 'sans-serif'],
-        kanit: ['"Kanit"', 'sans-serif'],
+        body: ['"Kanit"', 'sans-serif']
       }
     }
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase }) {
+      addBase({
+        '@font-face': [
+          {
+            fontFamily: '"Press Start 2P"',
+            fontDisplay: 'swap',
+          },
+          {
+            fontFamily: '"Russo One"',
+            fontDisplay: 'swap',
+          },
+          {
+            fontFamily: '"Kanit"',
+            fontDisplay: 'swap',
+          }
+        ],
+      });
+    },
+  ],
   darkMode: 'class'
 } satisfies Config

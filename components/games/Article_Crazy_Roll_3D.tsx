@@ -1,4 +1,5 @@
 import React from 'react';
+import { YouTubeLazy } from '../YouTubeLazy';
 
 const CrazyRoll3DPage = () => {
   return (
@@ -87,13 +88,11 @@ const CrazyRoll3DPage = () => {
       <section className="mb-8">
         <h3>Video Walkthrough</h3>
         <div className="relative pb-[56.25%] mb-4">
-          <iframe
-            src="https://www.youtube.com/embed/8620zAsVHzs"
-            className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+          <YouTubeLazy
+            videoId="8620zAsVHzs"
             title="Crazy Roll 3D Gameplay Walkthrough"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+            className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+          />
         </div>
         <p className="text-center">
           Watch this gameplay walkthrough to see controls, power-ups, and advanced level navigation in Crazy Roll 3D.

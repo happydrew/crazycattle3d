@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { YouTubeLazy } from '../YouTubeLazy';
 
 const CrazyCattle3D: React.FC = () => {
     return (
@@ -30,14 +31,10 @@ const CrazyCattle3D: React.FC = () => {
                     <strong>Crazy Cattle 3D</strong> is a unique combat game that combines an advanced physics engine with strategic gameplay, creating a gaming experience that's both hilarious and thrilling. You'll play as an explosive sheep, surviving in a constantly shrinking game area while defeating other woolly opponents to become the ultimate winner. The game offers both <strong>free download</strong> and <strong>online unblocked</strong> versions, making it accessible to all players.
                 </p>
                 <div className="my-4 flex justify-center aspect-video">
-                    <iframe
-                        src="https://www.youtube.com/embed/Kc-6UAG6Gkg?si=fBqVC6QalzOj-HnR"
+                    <YouTubeLazy
+                        videoId="Kc-6UAG6Gkg"
                         title="Crazy Cattle 3D Game Trailer - Play Free Sheep Game"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="w-full h-full"
-                    ></iframe>
+                    />
                 </div>
             </section>
 
@@ -271,14 +268,10 @@ const CrazyCattle3D: React.FC = () => {
                     </div>
                 </div>
                 <div className="my-6 flex justify-center w-full aspect-video">
-                    <iframe
-                        src="https://www.youtube.com/embed/3gPDBeX4ia8?si=Pa1OS7JnVwxixnHI"
+                    <YouTubeLazy
+                        videoId="3gPDBeX4ia8"
                         title="Crazy Cattle 3D Gameplay - Free Sheep Game Online"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="w-full h-full"
-                    ></iframe>
+                    />
                 </div>
             </section>
 
