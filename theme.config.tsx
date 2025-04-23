@@ -101,15 +101,16 @@ function Footer() {
         <div className="flex flex-col gap-4 lg:items-end">
           <ul className="flex gap-5">
             {[
-              { url: "https://x.com/crazy_cattle_3d", icon: TwitterIcon },
-              { url: "https://github.com/crazycattle3d-fun/crazycattle3d", icon: GitHubIcon },
-              { url: "https://www.youtube.com/@crazycattle3d-fun", icon: YouTubeIcon },
-              { url: "https://www.reddit.com/user/crazycattle3d/", icon: RedditIcon },
+              { url: "https://x.com/crazy_cattle_3d", icon: TwitterIcon, title: "Twitter" },
+              { url: "https://github.com/crazycattle3d-fun/crazycattle3d", icon: GitHubIcon, title: "GitHub" },
+              { url: "https://www.youtube.com/@crazycattle3d-fun", icon: YouTubeIcon, title: "YouTube" },
+              { url: "https://www.reddit.com/user/crazycattle3d/", icon: RedditIcon, title: "Reddit" },
               { url: "", icon: DiscordIcon },
               { url: "", icon: StackOverflowIcon },
-            ].map(({ url, icon: Icon }) => (
+            ].map(({ url, icon: Icon, title }) => (
               <li key={url}>
                 <a
+                  title={title}
                   href={url}
                   target="_blank"
                   rel="noreferrer"

@@ -53,6 +53,7 @@ const GamePage = ({
                             iframe_url={main_game.iframe_url}
                             votes={main_game.votes}
                             score={main_game.score}
+                            image={main_game.image}
                         />
                     </div>
 
