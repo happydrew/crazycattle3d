@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Star, Fullscreen, VolumeX, Volume2 } from 'lucide-react';
 import { GameInfo } from '@lib/types';
 
@@ -54,6 +54,12 @@ const GameArea: React.FC<GameInfo> = ({
     const startGame = () => {
         setGameStarted(true);
     };
+
+    useEffect(() => {
+        setTimeout(() => {
+            setGameStarted(true);
+        }, 5000);
+    }, []);
 
     return (
         <div className="flex-1 w-full flex flex-col justify-center items-center bg-transparent rounded-lg px-2">

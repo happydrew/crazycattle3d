@@ -113,8 +113,9 @@ function Footer() {
                   title={title}
                   href={url}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="hover:text-primary transition-colors block"
+                  aria-label={title}
                 >
                   <Icon className="h-5 w-auto *:fill-current" />
                 </a>
@@ -124,8 +125,9 @@ function Footer() {
           <a
             href="https://nextra.site"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="text-xs hover:text-primary transition-colors flex items-center gap-2"
+            aria-label="Powered by Nextra"
           >
             Powered by{" "}
             <svg
