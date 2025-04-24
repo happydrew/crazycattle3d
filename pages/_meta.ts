@@ -159,6 +159,14 @@ export default {
       layout: 'raw'
     }
   },
+  "crazy-chicken-3d": {
+    type: 'page',
+    title: 'Crazy Chicken 3D',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
   // docs: {
   //   type: 'page',
   //   title: 'Documentation'

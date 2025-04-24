@@ -1,6 +1,6 @@
 // pages/cheese-chompers-3d.tsx
-import Head from 'next/head'
 import { NextPage } from 'next'
+import Image from 'next/image';
 
 export const metadata = {
   description: 'Cheese Chompers 3D is a fast-paced browser knockout game where players control quirky 3D rats in chaotic arena battles, featuring physics-based collisions, mid-air flip speed boosts, and explosive takedowns.'
@@ -9,16 +9,18 @@ export const metadata = {
 const CheeseChompers3DPage: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>Cheese Chompers 3D | Play Now</title>
-        <meta name="description" content={metadata.description} />
-      </Head>
-
       <article className="max-w-3xl mx-auto px-4 py-8 space-y-8">
         <h1>Cheese Chompers 3D</h1>
         <p>
           Cheese Chompers 3D is a hilarious, fast-paced knockout game where you take control of quirky 3D rats battling for cheese supremacy in a dynamic, physics-driven arena. Dive into quick, unpredictable matches built for endless fun!
         </p>
+
+        <Image
+          src="/assets/images/games/cheese-chompers-3d.webp"
+          alt="Cheese Chompers 3D"
+          width={520}
+          height={292}
+        />
 
         <section>
           <h2>Game Features</h2>

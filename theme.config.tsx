@@ -105,6 +105,7 @@ function Footer() {
               { url: "https://github.com/crazycattle3d-fun/crazycattle3d", icon: GitHubIcon, title: "GitHub" },
               { url: "https://www.youtube.com/@crazycattle3d-fun", icon: YouTubeIcon, title: "YouTube" },
               { url: "https://www.reddit.com/user/crazycattle3d/", icon: RedditIcon, title: "Reddit" },
+              { url: "https://github.com/crazycattle3d-fun/cheese-chompers-3d", icon: GitHubIcon, title: "GitHub" },
               { url: "", icon: DiscordIcon },
               { url: "", icon: StackOverflowIcon },
             ].map(({ url, icon: Icon, title }) => (
