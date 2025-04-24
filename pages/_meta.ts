@@ -151,6 +151,14 @@ export default {
       layout: 'raw'
     }
   },
+  "cheese-chompers-3d": {
+    type: 'page',
+    title: 'Cheese Chompers 3D',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
   // docs: {
   //   type: 'page',
   //   title: 'Documentation'
