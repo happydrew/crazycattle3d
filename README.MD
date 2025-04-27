@@ -111,3 +111,9 @@ Experience the explosive sheep battle royale that everyone is talking about! Get
 <p align="center">
   © 2023 Crazy Cattle 3D. All rights reserved.
 </p>
+
+## Interesting Projects：
+
+[baseball bros io](https://baseballbrosio.fun)
+[random pokemon generator](https://randompokegen.cc)
+[youtube to mp3 converter](https://ezymp3.cc)
